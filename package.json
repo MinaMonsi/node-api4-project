@@ -20,7 +20,8 @@
   "homepage": "https://github.com/MinaMonsi/node-api4-project#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
