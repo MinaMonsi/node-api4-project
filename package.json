@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node.index.js",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,7 @@
   "homepage": "https://github.com/MinaMonsi/node-api4-project#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "nodemon": "^2.0.13",
-    "heroku-postbuild": "cd client && npm i && npm run build"
+    "nodemon": "^2.0.13"
   },
   "dependencies": {
     "cors": "^2.8.5",
